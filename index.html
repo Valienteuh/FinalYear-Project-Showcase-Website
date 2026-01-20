@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FYP Showcase | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Logo from Canva -->
+        <img src="logo.png" alt="FYP Showcase" class="logo-img"> 
+        <span style="font-size: 24px; font-weight: bold; margin-left: 10px;">FYP Student Portal</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- BANNER SECTION -->
+        <!-- This uses 'banner.jpg' from Canva as background -->
+        <div class="banner">
+            
+            <!-- BUTTONS OVERLAY -->
+            <div class="btn-container">
+                <a href="services.html" class="btn-orange">Explore Features</a>
+                <a href="contact.html" class="btn-outline">Get Started</a>
+            </div>
+
+            <!-- MANUAL PAGE 10: Audio -->
+            <div style="position: absolute; bottom: 10px; right: 10px; background: rgba(255,255,255,0.7); padding: 5px; border-radius: 5px;">
+                <p style="margin:0; font-size:10px; color:black;">Welcome Audio:</p>
+                <audio controls style="height: 20px; width: 150px;">
+                    <source src="welcome.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h2 class="section-title">Latest Updates</h2>
+            
+            <!-- MANUAL PAGE 12: Image Text Wrapping -->
+            <!-- Using your Canva Poster here -->
+            <div style="overflow: hidden;">
+                <img src="poster.jpg" alt="Admissions Poster" style="float: left; width: 250px; margin-right: 20px; border: 1px solid #333;">
+                
+                <h3>Admissions Open 2026!</h3>
+                <p>We are excited to announce the admissions schedule for the upcoming semester.</p>
+                <p><b>Deadline:</b> August 30th, 2026</p>
+                <!-- Manual Page 11: Underline Tag -->
+                <p><u>Apply online before the date passes.</u></p>
+                <p>Check out our poster on the left for more details about the Engineering and CS programs.</p>
+            </div>
+            
+            <div style="clear: both;"></div>
+            <br><br>
+
+            <h2 class="section-title">Featured Student Projects</h2>
+            
+            <!-- Manual Page 10: Boxes/Divs -->
+            <div class="box">
+                <h3>Robotics Arm</h3>
+                <p>A mechanical arm controlled by Arduino.</p>
+                <br>
+                <p><b>Student:</b> Ali Khan</p>
+            </div>
+
+            <div class="box">
+                <h3>Library System</h3>
+                <p>Web app to manage books and returns.</p>
+                <br>
+                <p><b>Student:</b> Sara Ahmed</p>
+            </div>
+
+            <div class="box">
+                <h3>Traffic AI</h3>
+                <p>Detecting cars using cameras and Python.</p>
+                <br>
+                <p><b>Student:</b> Bilal Raza</p>
+            </div>
+            
+            <div style="clear: both;"></div> 
+        </div>
+    </div>
+
+    <footer>
+        <p>FYP Showcase Web Project &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
